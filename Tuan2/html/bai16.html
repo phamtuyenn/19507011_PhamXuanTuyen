@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>bai16</title>
+    <style>
+        div.a {
+            text-align: center
+        }
+    </style>
+    <div class="a">
+        <h1>Travel reservation form</h1>
+    </div>
+</head>
+<body>
+    <h2>* denotes mandotory</h2>
+    <form action="" method="post">
+        <p>
+            <b>Full name*:</b><br />
+            <input type="text" name="txtName" value="" size="50" maxlength="50" placeholder="FirstName LastName" />
+        </p>
+        <p>
+            <b>Email address*:</b><br />
+            <input type="email" name="txtEmail" value="" size="50" maxlength="50" placeholder="Email Address" />
+        </p>
+        <p>
+            <b>Select Tour Package*:</b><br />
+            <select>
+                <option>Goa</option>
+                <option>Klook</option>
+            </select>
+        </p>
+        <p>
+            <b>Arrival date*:</b><br />
+            <input type="date" name="bday" placeholder="Date of birth" />
+        </p>
+        <p>
+            <b>Number of persons*:</b><br />
+            <input type="tel" name="txtNumber" placeholder="Unknown_Type" />
+        </p>
+        <p>
+            <b>What would you want to avail?*:</b><br />
+            Boarding <input type="checkbox" /><br />
+            Fooding <input type="checkbox" /><br />
+            Sight seeing <input type="checkbox" /><br />
+        </p>
+        <p>
+            <b>Discout Coupon code:</b><br />
+            <input type="number" name="txtNumber" value="" size="50" maxlength="50" placeholder="Unknown_Type" />
+        </p>
+        <p>
+            <b>Terns and conditions*:</b><br />
+            <input type="radio" name="a" />I agree
+            <input type="radio" name="a" />I disagree
+        </p>
+        <p><input type="submit" value="Complete reservation" /></p>
+    </form>
+</body>
+</html>

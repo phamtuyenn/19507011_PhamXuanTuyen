@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>bai15</title>
+    <h1>Contact us</h1>
+</head>
+<body>
+    <fieldset>
+        <legend>Your message:</legend>
+        <table>
+            <tr>
+                <td><label for="emailTo">To</label></td>
+                <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe" /></td>
+            </tr>
+            <tr>
+                <td><label for="emailForm">Your email</label></td>
+                <td><input type="text" name="txtForm" id="emailForm" size="20" tabindex="1" maxlength="250" /></td>
+            </tr>
+            <tr>
+                <td><label for="emailBody">Message</label></td>
+                <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>How you found us:</legend>
+        <table>
+            <tr>
+                <td>How did you hear of us?</td>
+                <td>
+                    <select>
+                        <option>GoogleChrome</option>
+                        <option>CocCoc</option>
+                        <option>MicrosoftEdge</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Newsletter</td>
+                <td><input type="checkbox" name="" value="" />Ensure this box is checked if you would like to recieve email updates</td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="submit" value="Send message" />
+</body>
+</html>

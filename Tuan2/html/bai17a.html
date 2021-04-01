@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>bai17</title>
+    <style>
+        div.a {
+            text-align: center;
+        }
+    </style>
+    <div class="a">
+        <h1>Survey Form</h1>
+    </div>
+</head>
+<body>
+    <p>If you are interested in purchasing one or more of our products, before ordering please complete some or all of the following survey for out marketing department. Answering any question is optional, and all information will be kept strictly confidential. Thank you very much for your time!</p>
+    <ol>
+        <li>
+            <p>
+                What is your name?<br />
+                <input type="text" name="txtName" value="" size="50" maxlength="50" />
+            </p>
+        </li>
+        <li>
+            <p>
+                What is your date of birth?<br />
+                <lable>Month:</lable>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <label>Date:</label>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <label>Year:</label>
+                <select>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                </select>
+            </p>
+        </li>
+        <li>
+            <p>
+                What is your mailing address?<br />
+                <textarea name="txtBody" cols="50" rows="10"></textarea>
+            </p>
+        </li>
+        <li>
+            <p>
+                What is your email address?<br />
+                <input type="email" name="txtEmail" value="" size="50" maxlength="50" />
+            </p>
+        </li>
+        <li>
+            <p>
+                Have you viewed our online product catalog?<br />
+                <input type="radio" value="yes" name="yes" />Yes
+                <input type="radio" value="no" name="yes" />No
+            </p>
+        </li>
+        <li>
+            <p>
+                If so, what products, besides the one you are ordering, might you be interested in purchasing in the future?<br />
+                <input type="checkbox" />VCR<br />
+                <input type="checkbox" />Big Screen TV<br />
+                <input type="checkbox" />Audio Equipment<br />
+                <input type="checkbox" />Other
+                <input type="text" name="txtOther" value="Please List:" size="50" maxlength="50" />
+            </p>
+        </li>
+        <li>
+            <p>
+                Do you have any questions, comments or suggestions before proceeding to the Order Form?<br />
+                <textarea name="txtArea" cols="50" rows="10">Your Input:</textarea>
+            </p>
+        </li>
+    </ol>
+    <div class="a">
+        <input type="submit" value="Send Form" />
+        <input type="submit" value="Clear Form" />
+    </div>
+</body>
+</html>
