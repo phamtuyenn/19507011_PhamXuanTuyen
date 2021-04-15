@@ -1,0 +1,58 @@
+﻿body {
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#khung {
+    width: 1000px;
+    height: 800px;
+    background: #b6ff00;
+    border: 1px solid #808080;
+    margin: 15px;
+    margin-left: 250px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #b6ff00;
+    border-bottom: 1px solid #808080;
+    text-align: center;
+}
+
+menu {
+    width: 100%;
+    height: 50px;
+    background: #b6ff00;
+    border-bottom: 1px solid #808080;
+    text-align: center;
+}
+
+nav {
+    width: 200px;
+    height: 535px;
+    background: #b6ff00;
+    border-right: 1px solid #808080;
+    float: left;
+}
+
+section {
+    width: 200px;
+    height: 535px;
+    background: #b6ff00;
+    border-left: 1px solid #808080;
+    float: right;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: #b6ff00;
+    border-top: 1px solid #808080;
+    text-align: center;
+    clear: both;
+}

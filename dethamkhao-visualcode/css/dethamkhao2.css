@@ -1,0 +1,175 @@
+body {
+    font-family: sans-serif;
+    color: pink;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1000px;
+    height: 600px;
+    background: grey;
+    border: 1px solid black;
+    margin: 15px;
+    margin-left: 270px;
+    margin-top: 70px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px dotted black;
+}
+
+
+/* #menu {
+    width: 600px;
+    float: left;
+} */
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+#menu a:hover {
+    background: pink;
+    color: black;
+}
+
+.submenu li {
+    display: none;
+}
+
+#menu li {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: pink;
+}
+
+#menu li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    margin-left: 0;
+}
+
+#right {
+    width: 388px;
+    height: 50px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+    line-height: 50px;
+    color: white;
+}
+
+#sky {
+    text-shadow: 2px 2px 4px violet;
+}
+
+form {
+    width: 499px;
+    height: 500px;
+    float: left;
+    color: white;
+}
+
+#up {
+    width: 499px;
+    height: 136px;
+}
+
+#down {
+    margin-left: 59px;
+    width: 439px;
+    height: 280px;
+}
+
+#re {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#st {
+    margin-left: 10px;
+}
+
+td {
+    margin-left: 60px;
+}
+
+select {
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+textarea {
+    border-radius: 10px;
+}
+
+#downdown {
+    margin-left: 200px;
+    width: 439px;
+    height: 54px;
+}
+
+section {
+    width: 499px;
+    height: 500px;
+    float: left;
+    color: white;
+}
+
+img {
+    width: 499px;
+    height: 400px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#hp {
+    margin-left: 20px;
+}
+
+#a {
+    margin-left: 30px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    clear: both;
+    border-top: 1px dotted black;
+    color: white;
+}
+
+#ft {
+    text-align: center;
+}
